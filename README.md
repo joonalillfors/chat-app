@@ -1,10 +1,10 @@
 
-Latest deployed version:
+## Latest deployed version:
 
 Coming soon
 
 
-Setup locally instructions:
+## Instructions to setup locally:
 
 ```
 git clone https://github.com/joonalillfors/chat-app
