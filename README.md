@@ -6,6 +6,8 @@ Coming soon
 
 ## Instructions to setup locally:
 
+The project is build using [Node.js[node].
+
 ```
 git clone https://github.com/joonalillfors/chat-app
 cd chat-app/client
