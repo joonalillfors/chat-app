@@ -5,9 +5,20 @@ export default class Messages extends Component {
     key: 0,
   }
 
+  height = 0
+  hasScrolled = true
+
   componentDidUpdate() {
     // TODO dont scroll always
-    window.scrollTo(0, document.body.scrollHeight)
+    console.log("ayy")
+    console.log(window.scrollY)
+    console.log(this.height)
+    console.log(window.innerHeight)
+    console.log(document.body.scrollHeight)
+    if (window.scrollY === (this.height-window.innerHeight)) {
+      window.scrollTo(0, document.body.scrollHeight)
+    }
+    this.height = document.body.scrollHeight
   }
 
   getKey = () => {

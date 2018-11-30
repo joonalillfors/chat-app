@@ -60,6 +60,8 @@ http.on('close', () => {
     mongoose.connection.close()
 })
 
-http.listen(3001, () => {
-    console.log('listening on: 3001')
+const PORT = process.env.PORT || 3001
+
+http.listen(PORT, () => {
+    console.log(`listening on: 3001`)
 })
