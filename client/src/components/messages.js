@@ -10,11 +10,6 @@ export default class Messages extends Component {
 
   componentDidUpdate() {
     // TODO dont scroll always
-    console.log("ayy")
-    console.log(window.scrollY)
-    console.log(this.height)
-    console.log(window.innerHeight)
-    console.log(document.body.scrollHeight)
     if (window.scrollY === (this.height-window.innerHeight)) {
       window.scrollTo(0, document.body.scrollHeight)
     }

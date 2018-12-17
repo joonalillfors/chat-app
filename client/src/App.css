@@ -1,4 +1,8 @@
-* { margin: 0; padding: 0; box-sizing: border-box; }
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+}
 
 body { 
     font: 13px Helvetica, Arial; 
@@ -80,13 +84,16 @@ i:hover {
     list-style-type: none; 
     margin: 0; 
     margin-bottom: 3%;
-    padding: 0; 
+    padding: 0;
 }
 
 #messages li {
     width: 99%;
     padding: 5px 10px; 
     display: inline-block;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
 }
 
 #messages li:nth-child(odd) { 
