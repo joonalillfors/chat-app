@@ -1,6 +1,6 @@
 import io from 'socket.io-client'
 
-const socket = io('http://localhost:3001')
+const socket = io()
 
 const confSocket = dispatch => {
     socket.on('chat message', msg => {
