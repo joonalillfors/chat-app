@@ -1,7 +1,7 @@
 
 ## Latest deployed version:
 
-Coming soon
+https://whispering-bastion-93761.herokuapp.com
 
 
 ## Instructions to setup locally:
